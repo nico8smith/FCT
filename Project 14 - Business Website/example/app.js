@@ -2,7 +2,8 @@
 'use strict';
 
 function secretMessage() {
-    alert("You have unlocked the secret message!")
+    document.getElementById("everything").style.display = "none";
+    document.getElementById("purpledrink").style.display = "block";
 }
 function displayDog() {
     document.getElementById("dogContent").style.display = "block";
@@ -14,7 +15,7 @@ function displayCat() {
     document.getElementById("catContent").style.display = "block";
     document.getElementById("defaultContent").style.display = "none";
 }
-function redBackground() {
-    document.body.style.backgroundColor = "red";
+function purpleBackground() {
+    document.body.style.backgroundColor = "purple";
     console.log(document)
 }
